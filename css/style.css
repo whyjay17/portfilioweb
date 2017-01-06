@@ -6,6 +6,7 @@ html{
 
 	background:  #122 url(https://wingolog.org/pub/background.svg) bottom right no-repeat;
 	height: 100%;
+	width: 100%;
 	background-position: fixed;
 	overflow-y: scroll;
 
@@ -29,18 +30,18 @@ p{
 }
 
 .navbar-brand, .navbar-nav>li>a{
-	color: #122;
+	color: #f5f5f5;
 	font-weight: bold;
 }
 
 .navbar-brand:hover{
-	color: #122;
+	color: #f5f5f5;
 	font-weight: bold;
 	background: none;
 }
 
 .navbar-nav>li>a:hover{
-	color: #122;
+	color: #f5f5f5;
 	font-weight: bold;
 	background: none;
 
@@ -51,7 +52,6 @@ p{
 	margin-left: 30px;
 
 }
-
 
 .navbar-nav > li:last-child > a:after {
 	content: '';
@@ -71,7 +71,7 @@ p{
 	}
 
 	.navbar-nav>li>a{
-		background: #f5f5f5;
+		background: #f5f5f5	;
 		border-radius: 4px;
 		margin-bottom: 3px;
 	}
